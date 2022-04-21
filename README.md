@@ -27,7 +27,7 @@ This is the simplest way to run the project, and can be useful to check whether 
 2. Run `git clone https://github.com/ntobeko-mkhize/tdd-tester.git`
 3. `cd $Workspace/tdd`
 4. Build your project `mvn clean install`
-5. To run only the tests `mvn test`. Note you must first run a `mvn clean install` at least before.
+5. To run only the tests `mvn test`. Note you must first run a `mvn clean install` at least once before.
 
 This should trigger the [maven test](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#build-lifecycle-basics) lifecycle. The output should look similar to 
 ```
@@ -74,6 +74,17 @@ This should trigger the [maven test](https://maven.apache.org/guides/introductio
 ### Run inside IDE
 
 #### Eclipse
-TODO
+
+> Eclipse IDE offers support for the JUnit Platform since the Eclipse Oxygen.1a (4.7.1a) release.
+
+1. Download and install [Eclipse](https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-ide-java-developers)
+2. Confige Java JRE - set as the *JDK* we installed during [setup](https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-ide-java-developers)
+3. Configure Maven Installation - set as the JDK we installed during [setup](https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-ide-java-developers)
+
+To learn how to run your unit test insise Eclipse you can refer this [JUnit 5 with Eclipse](https://www.eclipse.org/eclipse/news/4.7.1a/#junit-5-support)
+
 #### IntelliJ
+TODO
+
+#### VSCode
 TODO
